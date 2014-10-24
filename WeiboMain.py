@@ -68,7 +68,7 @@ class WeiboLogin:
 
 if __name__ == '__main__':
 
-    weiboLogin = WeiboLogin('1079128938@qq.com', 'njumu.st234weibo')
+    weiboLogin = WeiboLogin('user', 'pwd')
     if weiboLogin.Login() == True:
         print "Success!"
 
